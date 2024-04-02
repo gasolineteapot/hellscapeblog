@@ -11,7 +11,22 @@ p {
   border: 5px "#31081f";
   background-color:"#160202";
 }  
-  
+
+.image-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.image-container img {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.image-container img:hover {
+  transform: scale(1.1);
+}
 h1 { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
    }
 p { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
@@ -27,9 +42,8 @@ a:link {
 .center {
   text-align: center;
 }
-body {
-  cursor: url('./cursor.png'),auto;
-}
+ cursor: url('./cursor.png'),auto;
+ 
  .uncenter {
   margin: 0;
   position: absolute;
@@ -55,6 +69,7 @@ head {
 </style>
 <!DOCTYPE html>
 <html>
+ <img src="./para.png" class="floating-image"/>
 <body style="background-color:#fa198b;">  
    <head>
       <title>hellscape blogn</title>
