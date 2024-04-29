@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+p {
+  border: 5px "#31081f";
+  background-color:"#160202";
+}  
+
+.image-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.image-container img {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.image-container img:hover {
+  transform: scale(1.1);
+}
+h1 { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+   }
+p { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  }
+a { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  }
+b { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  }
+a:link {
+  color: mediumblue;
+  text-decoration:none;
+}
+.center {
+  text-align: center;
+}
+ cursor: url('./cursor.png'),auto;
+ 
+ .uncenter {
+  margin: 0;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+} 
+ 
+a:visited {
+  color: mediumblue;
+}
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+} 
+}
+head {
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+<!DOCTYPE html>
+<html>
+<body style="background-color:#fa198b;">  
+   <head>
+      <title>hellscape blogn</title>
+      <link rel="icon" type="image/x-icon" href="./favicon.png">
+   </head>
+  <body>
+     <table width = "100%" border = "4">
+         
+         <tr>
+            <td colspan = "3" height = 15% width=100%>
+               <img src ="./penpop.png" padding = "0px" width=100%  height=100%>
+            </td>
+         </tr>
+         <tr valign = "top">
+            <td width = "50%" height=60%>
+               <b><font color="#6b0f1a" size="4">Menu</b>
+               <div class="topnav"> <font size="3"><a class="active" href="./index.html">Home</a> &emsp; <a href="./list.html">dates</a> &emsp;  <a href="./deadlink.html">shit comic</a> &emsp; <a href="./planesounds.html">pirated music lol</a> &emsp; <a href="./deadlink.html">tumblr</a>
+</div>
+            </td>
+            <td bgcolor = "#b91372" width = "50%" height = "60%">
+              <b><a href="./news.html"><font color="#6b0f1a" size="4"><strong>Latest News</strong></font></a>
+                 <div class="topnav"><font color="#0015ff" size="3"> 4/28/24 </b>
+            </div>
+         </tr>
+     </td>
+      </table>
+   
+ <table width = "100%" border = "4">
+                    <tr valign = "top">
+            <td bgcolor = "#b91372" width = "50" height = "90%">
+               <font color ="#6b0f1a" size = "5">
+            <audio id="player">
+  <source src="hgac.mp3" type="audio/mpeg">
+</audio>
+                 <div> 
+  <button onclick="document.getElementById('player').play()"><img src="./play.png"></img></button> 
+  <button onclick="document.getElementById('player').pause()"><img src="./pause.png"></img></button> 
+  <button onclick="document.getElementById('player').volume += 0.1"><img src="./plu.png"></img></button> 
+  <button onclick="document.getElementById('player').volume -= 0.1"><img src="./min.png"></img></button> 
+</div>
+            
+            </td>
+         </tr>
+    </table>
+  <table width = "100%" border = "4">
+         <tr>
+            <td colspan = "3" height = 15% width=100%>
+               <img src ="./footer.png" padding = "0px" width=100%  height=100%>
+            </td>
+         </tr>
+  </table>
